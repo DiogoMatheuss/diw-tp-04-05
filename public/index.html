@@ -2,13 +2,13 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OnePieceWeb</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body >
-  <header class="header">
-    <h1 >OnePieceWeb</h1>
+<header>
+    <h1>OnePieceWeb</h1>
     <nav>
       <ul class="menu">
         <li><a href="#">Home</a></li>
@@ -19,46 +19,55 @@
     </nav>
   </header>
 
-  <aside>
-    
+  <div class="container">
+    <aside>
       <h1>A busca pelo tesouro</h1>
       <ul>
-        <li><strong>Monkey D. Luffy:</strong> Protagonista da série, um garoto determinado que comeu uma Fruta do Diabo e se tornou um homem-borracha, o que lhe concede habilidades únicas.</li>
-        <li><strong>O One Piece:</strong> Tesouro lendário do Rei dos Piratas, que se diz estar escondido em algum lugar no final da Grand Line, a rota marítima mais perigosa do mundo.</li>
-        <li><strong>Rei dos Piratas:</strong> O título supremo para o pirata que conseguir encontrar o One Piece e governar os mares.</li>
+        <li><strong>Monkey D. Luffy:</strong> Protagonista da série, um garoto determinado que comeu uma Fruta do Diabo e se tornou um homem-borracha.</li>
+        <li><strong>O One Piece:</strong> Tesouro lendário do Rei dos Piratas, escondido no final da Grand Line.</li>
+        <li><strong>Rei dos Piratas:</strong> Título para o pirata que encontrar o One Piece e dominar os mares.</li>
       </ul>
-  </aside>
+    </aside>
 
-  <main>
-    <section>
-        <h2 >Sinopse</h2>
-        <img src="One-Piece-Emblem.png" width="200" alt="Imagem destaque">
-        <p>One Piece acompanha as aventuras de Monkey D. Luffy, um jovem que sonha em se tornar o Rei dos Piratas ao encontrar o tesouro lendário deixado por Gold Roger, o Rei dos Piratas. Para isso, Luffy reúne uma tripulação de piratas, os Chapéus de Palha, e juntos eles navegam por mares perigosos e ilhas exóticas, enfrentando rivais, organizações criminosas e a Marinha na busca pelo tesouro e por seus objetivos individuais.</p>
-    </section>
-    <section>
-      <h2>Personagens</h2>
-      <article>
-          <h3>Monkey D. Luffy</h3>
-          <img src="luffy.png" width="200" alt="Luffy">
-          <p>O capitão dos Chapéus de Palha e futuro Rei dos Piratas!</p>
-      </article>
-      <article>
-         <h3>Roronoa Zoro</h3>
-        <img src="zoro.jpg" width="200" alt="Zoro">
-        <p>O espadachim que sonha em ser o melhor do mundo!</p>
-      </article>
-      <article>
-       <h3>Sanji</h3>
-        <img src="sanji.jpg" width="200" alt="Sanji">
-        <p>O cozinheiro que sonha em encontrar o All Blue, um mar lendário onde todos os peixes e criaturas dos quatro mares se encontram!</p>
-      </article>
-      <article>
-        <h3>Nami</h3>
-        <img src="nami.jpg" width="200" alt="Nami">
-        <p>Ela é uma cartógrafa habilidosa com o sonho de criar um mapa-múndi completo!</p>
-      </article>
-    </section>
-  </main>
+    <main>
+      <section class="sinopse">
+        <h2>Sinopse</h2>
+        <div class="sinopse-conteudo">
+          <img src="One-Piece-Emblem.png" alt="Imagem destaque">
+          <p>One Piece acompanha as aventuras de Monkey D. Luffy, que sonha em se tornar o Rei dos Piratas. Com sua tripulação, ele enfrenta desafios, inimigos e explora mares perigosos em busca do lendário tesouro.</p>
+        </div>
+      </section>
+
+      <section class="personagens">
+        <h2>Personagens</h2>
+        <div class="cards">
+          <article>
+            <img src="luffy.png" alt="Luffy">
+            <h3>Monkey D. Luffy</h3>
+            <p>O capitão dos Chapéus de Palha e futuro Rei dos Piratas!</p>
+          </article>
+
+          <article>
+            <img src="zoro.jpg" alt="Zoro">
+            <h3>Roronoa Zoro</h3>
+            <p>O espadachim que sonha em ser o melhor do mundo!</p>
+          </article>
+
+          <article>
+            <img src="sanji.jpg" alt="Sanji">
+            <h3>Sanji</h3>
+            <p>O cozinheiro que sonha em encontrar o All Blue!</p>
+          </article>
+
+          <article>
+            <img src="nami.jpg" alt="Nami">
+            <h3>Nami</h3>
+            <p>A cartógrafa que deseja criar o mapa-múndi completo!</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <footer>
     &copy; 2025 - Projeto One Piece
