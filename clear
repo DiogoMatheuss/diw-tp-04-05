@@ -1,0 +1,47 @@
+[33mcommit 095f3e3aeaae4bc17fc2540dc873122b5e0925df[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdiogo[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Mon Sep 1 10:05:26 2025 -0300
+
+    remoção do autograder.
+
+[33mcommit bfcbb7e48a5b84beb6b6d378800e013ebdbfdb16[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Tue Mar 25 22:54:28 2025 -0300
+
+    Update classroom.yml
+
+[33mcommit 97013270bf1fcb977843bf4d59c9743dd84c721a[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Thu Mar 20 00:16:31 2025 -0300
+
+    fix: nome arquivo styles.css | feat: add CheckGitIgnore option on config file
+
+[33mcommit b6e98cec2a263d05237081bbd9c02ee03e3d3266[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Wed Mar 19 19:44:19 2025 -0300
+
+    fix texto em README.md
+
+[33mcommit 5b6c4310cb3dc74f6d4734eee1932d632d974a1c[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Wed Mar 19 19:42:48 2025 -0300
+
+    fix texto em README.md
+
+[33mcommit a4d85b71e36cf19f7ceafef638b16d94d26e67ef[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Wed Mar 19 19:33:43 2025 -0300
+
+    add index.html style.css
+
+[33mcommit 0b12ce28c09913c0b039c4ee609ee5668e4cff58[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Wed Mar 19 19:00:58 2025 -0300
+
+    Primeira versão do template
+
+[33mcommit 84662ede2320d045d3cfa81b11aae39c9b7d5b06[m
+Author: Rommel Vieira Carneiro <rommelcarneiro@gmail.com>
+Date:   Wed Mar 19 18:47:55 2025 -0300
+
+    Initial commit
