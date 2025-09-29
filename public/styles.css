@@ -1,175 +1,31 @@
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    html {
-        height: 100%;
+ body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
     }
 
-    body 
-    {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: #f4f4f4;
-        line-height: 1.6;
+    aside {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     }
-    header 
-    {
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: black;
-        color: white;
-        padding: 20px;
-        flex-wrap: wrap;
+    aside ul {
+      padding-left: 0;
+      list-style: none;
     }
-    header h1 {
-        font-size: 24px;
+
+    main {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     }
-    .menu 
-    {
-        list-style-type: none;
-        display: flex;
-        gap: 20px;
-        padding: 0;
-    }
-    .menu li a 
-    {
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-    }
-    .container
-     {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        gap: 20px;
-    }
-    aside 
-    {
-        flex: 1 1 25px;
-        background-color: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    }
-    aside h1 
-    {
-        font-size: 40px;
-        margin-bottom: 10px;
-    }
-    aside ul
-     {
-        list-style-type: none;
-        padding-left: 0;
-    }
-    aside ul li 
-    {
-        margin-bottom: 10px;
-    }
-    main 
-    {
-        flex: 3 1 600px;
-        background-color: white;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    }
-    .sinopse h2 
-    {
-        margin-bottom: 20px;
-    }
-    .sinopse-conteudo 
-    {
-        display: flex;
-        gap: 20px;
-        align-items: center;
-    }
-    .sinopse-conteudo img 
-    {
-        width: 200px;
-        flex-shrink: 0;
-        border-radius: 8px;
-        margin-bottom: 15px;
-    }
-    .sinopse-conteudo p 
-    {
-        flex: 1;
-        text-align: justify;
-    }
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-    .cards article 
-    {
-        background-color: #f9f9f9;
-        padding: 15px;
-        border-radius: 8px;
-        text-align: center;
-        box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    }
-    .cards article img 
-    {
-        width: 50%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
-    footer
-     {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 40px;
-    }
-    @media (max-width: 900px) 
-    {
-        .container 
-      {
-          flex-direction: column;
-      }
-      header 
-      {
-          flex-direction: column;
-          text-align: center;
-      }
-      .menu 
-      {
-          flex-direction: column;
-          gap: 10px;
-          margin-top: 10px;
-      }
-      .menu li a 
-      {
-          font-size: 16px;
-      }
-      .cards 
-      {
-          grid-template-columns: 1fr;
-      }
-      .sinopse-conteudo 
-      {
-          flex-direction: column;
-          text-align: center;
-      }
-      .sinopse-conteudo p
-       {
-          text-align: left;
-      }
-    }
-    @media (max-width: 500px) 
-    {
-      header h1 
-      {
-          font-size: 20px;
-      }
-      main, aside 
-      {
-          padding: 15px;
-      }
+
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
     }
